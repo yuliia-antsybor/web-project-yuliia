@@ -1,12 +1,29 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-:root{
+
+:root {
+    --primary: #2091F9;
+    --accent-color: #2DC071;
+    --text-color: #252B42;
+    --second-text-color: #374754;
+    --light-text-color: #FFFFFF;
+    --dark-background-color: #252B42;
+    --light-background-color: #FFFFFF;
+}
+
+html {
+    font-family: 'Graphik';
     scroll-behavior: smooth;
 }
-.h2{
-    color:black;
-    
+
+.h2 {
+    color: black;
+}
+
+img {
+    display: block;
+    width: 100%;
 }

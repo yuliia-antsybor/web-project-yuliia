@@ -1,8 +1,22 @@
+@import url(./global.css);
+
+@font-face {
+    font-family: 'Graphik';
+    src: url('../fonts/GraphikBold.otf') format('opentype');
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'Graphik';
+    src: url('../fonts/GraphikRegular.otf') format('opentype');
+    font-weight: 400;
+}
+
 .header {
     text-align: center;
     background-color: #f2f2f2;
     padding: 20px;
-    background-image: url(/img/backgroundhead.png)
+    background-image: url('/img/backgroundhead.png')
 }
 
 .header__nav ul {
@@ -25,20 +39,26 @@
 
 .header__nav a {
     text-decoration: none;
-    color: #333;
+    color: #FFFFFF;
+    justify-content: flex-start;
 }
 
 .header__logo img {
     max-width: 100%;
     height: auto;
-    
+    flex-direction: row;
+    width: 186px;
+    height: 58px;
+    position: absolute;
+
+
 }
 
 .header__socialmedia a {
     display: inline-block;
     margin-right: 10px;
 
-   
+
 
 }
 
@@ -47,6 +67,7 @@
     align-items: center;
     justify-content: space-between;
     margin-top: 20px;
+    color: #FFFFFF;
 }
 
 .header__content-text {
@@ -54,42 +75,48 @@
 }
 
 .header__content-title {
-    font-size: 24px;
+    font-size: 74px;
     margin-bottom: 10px;
-}
+    font-size: 400;
+    color: #FFFFFF;
+ 
 
-.header__content-subtitle {
-    font-size: 16px;
-    color: #666;
-    margin-bottom: 20px;
-}
+    .header__content-subtitle {
+        font-size: 28px;
+        margin-bottom: 20px;
+        color: #FFFFFF;
+        font-weight: 300;
+        font-style: normal;
 
-.header_button button {
-    padding: 10px 20px;
-    background-color: rgb(6, 60, 209);
-    color: rgb(255, 255, 255);
-    border: #000000 font-size: 16px;
-    cursor: pointer;
-    align-items: center;
 
-}
+    }
 
-.features__content {
-    padding: 5px 5px;
-    background-color: white;
-    color: black;
-    font-size: 48px;
-    font-style: normal;
-    align-items: center;
-    text-align: center;
+    .header_button button {
+        padding: 10px 20px;
+        background-color: #2091F9;
+        color: rgb(255, 255, 255);
+        border: #000000 font-size: 16px;
+        cursor: pointer;
+        align-items: center;
 
-}
+    }
 
-.features__features__subtitle {
-    padding: 10px 10px;
-    color: rgb(223, 223, 223);
-    font-size: 28px;
-    font-style: normal;
-    text-align: center;
+    .features__content {
+        padding: 5px 5px;
+        background-color: white;
+        color: black;
+        font-size: 48px;
+        font-style: normal;
+        align-items: center;
+        text-align: center;
 
-}
+    }
+
+    .features__features__subtitle {
+        padding: 10px 10px;
+        color: rgb(223, 223, 223);
+        font-size: 28px;
+        font-style: normal;
+        text-align: center;
+
+    }
