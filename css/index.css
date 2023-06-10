@@ -1,0 +1,95 @@
+.header {
+    text-align: center;
+    background-color: #f2f2f2;
+    padding: 20px;
+    background-image: url(/img/backgroundhead.png)
+}
+
+.header__nav ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0;
+    height: 28px;
+
+}
+
+.header__nav li {
+    display: inline-block;
+    font-size: 15px;
+    font-style: normal;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+    margin-right: 10px;
+
+}
+
+.header__nav a {
+    text-decoration: none;
+    color: #333;
+}
+
+.header__logo img {
+    max-width: 100%;
+    height: auto;
+    
+}
+
+.header__socialmedia a {
+    display: inline-block;
+    margin-right: 10px;
+
+   
+
+}
+
+.header__content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.header__content-text {
+    flex-grow: 1;
+}
+
+.header__content-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.header__content-subtitle {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.header_button button {
+    padding: 10px 20px;
+    background-color: rgb(6, 60, 209);
+    color: rgb(255, 255, 255);
+    border: #000000 font-size: 16px;
+    cursor: pointer;
+    align-items: center;
+
+}
+
+.features__content {
+    padding: 5px 5px;
+    background-color: white;
+    color: black;
+    font-size: 48px;
+    font-style: normal;
+    align-items: center;
+    text-align: center;
+
+}
+
+.features__features__subtitle {
+    padding: 10px 10px;
+    color: rgb(223, 223, 223);
+    font-size: 28px;
+    font-style: normal;
+    text-align: center;
+
+}
